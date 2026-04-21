@@ -1,0 +1,50 @@
+.nav-link{
+    color: #169e88 !important;
+}
+.nav-link:hover{
+    color: #169e88 !important;
+}
+
+.input-field-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-field-group .form-label {
+    flex-shrink: 0;
+}
+
+.input-field-group .form-control {
+    width: 250px;
+}
+
+.remove-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-btn:hover {
+    background-color: #c82333;
+}
+
+#add-more-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#add-more-btn:hover {
+    background-color: #218838;
+}
+#button-fields-container{
+    column-count: 2 !important;
+}

@@ -1,0 +1,107 @@
+.btn-primary{
+    background-color: #169e88 !important;
+    border: none !important;
+    border-radius: 5px !important;
+}
+button.btn-secondary{
+    background-color: #169e88 !important;
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+/* Make sure the modal is centered both vertically and horizontally */
+.modal-dialog {
+    max-width: 800px; /* Adjust the width of the modal */
+    margin: auto; /* Center the modal horizontally */
+}
+
+/* Ensure the modal is perfectly centered vertically */
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Ensure it takes up full screen height */
+}
+
+/* Optional: Add some spacing for better presentation */
+.modal-content {
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add a shadow */
+}
+
+/* Optional: Adjust the modal header, body, and footer spacing */
+.modal-header, .modal-body, .modal-footer {
+    padding: 20px;
+}
+
+.modal-dialog.modal-dialog-centered.modal-sm.custom-modal{
+    max-width:60% !important; 
+}
+.input_field{
+    width: 45%;
+}
+/* Center the modal dialog both horizontally and vertically */
+.modal-dialog {
+    max-width: 800px; /* Adjust the width of the modal */
+    margin: 0 auto; /* Ensure it is centered horizontally */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: absolute; /* Allows for full control of positioning */
+    top: -25%; /* Move the top of the modal to the center of the screen */
+    left: 5%; /* Move the left of the modal to the center of the screen */
+    transform: translate(-50%, -50%); /* Offset the modal back by half of its width/height */
+}
+
+button.btn.btn-danger.btn-sm{
+    background-color: rgb(241, 58, 58);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+}
+
+button.btn.btn-danger.btn-sm:hover{
+    background-color: rgb(217, 44, 44);
+}
+
+.action{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+button.btn.btn-primary.btn-sm {
+    padding: 5px 18px !important;
+}
+
+#phone {
+    visibility: hidden;
+    position: absolute;
+}
+.bg_dark {
+    padding: 12px 35px;
+    border-radius: 8px;
+    background-color: black !important;
+}
+th {
+    background-color: #169d87 !important;
+    color: white !important;
+    border: 1px solid #dee2e6 !important;
+    border-left-width: 0 !important;
+    border-top-width: 0 !important;
+}
+th:last-child {
+    border-right-width: 0 !important;
+    border-top-right-radius: 6px !important;
+}
+th:first-child {
+    border-top-left-radius: 6px !important;
+}

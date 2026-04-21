@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileZilla3 version="3.67.0" platform="windows">
+	<Servers>
+		<Server>
+			<Host>recruit.360websitedemo.com</Host>
+			<Port>21</Port>
+			<Protocol>0</Protocol>
+			<Type>0</Type>
+			<User>recruit</User>
+			<Pass encoding="base64">VkpzbTRRR0tGS3FZWmhKZ3lWSko=</Pass>
+			<Logontype>1</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>newRecruite</Name>
+			<Comments>VJsm4QGKFKqYZhJgyVJJ</Comments>
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+		</Server>
+	</Servers>
+</FileZilla3>

@@ -1,0 +1,138 @@
+ /* Custom CSS for modal centering */
+ .custom-modal {
+     max-width: 800px !important;
+     width: 100%;
+     position: fixed !important;
+     top: 20% !important;
+     left: 25%;
+     transform: translate(-50%, -50%);
+ }
+
+ .modal-dialog.custom-modal {
+     width: 100%;
+ }
+
+ #modalErrorMessages {
+     font-size: 0.8rem;
+     /* Smaller font size */
+     padding: 10px;
+     /* Reduce padding */
+     line-height: 1.2;
+     /* Adjust line spacing */
+ }
+
+ #modalErrorList li {
+     margin-bottom: 5px;
+     /* Reduce spacing between list items */
+ }
+
+ .text-custom {
+     color: #169e88;
+ }
+
+ .custom-add {
+     background-color: #169e88 !important;
+     color: white;
+     border: none !important;
+ }
+
+ .card-img-top {
+     height: 150px;
+     object-fit: cover;
+     border-bottom: 1px solid #ddd;
+ }
+
+ .card-title {
+     font-size: 1.1rem;
+     font-weight: bold;
+ }
+
+ .card-text {
+     font-size: 0.9rem;
+     color: #6c757d;
+ }
+
+ /* General Table Styling */
+ .table {
+     font-size: 0.9rem;
+     border-collapse: separate;
+     border-spacing: 0;
+ }
+
+ .table th,
+ .table td {
+     vertical-align: middle;
+     padding: 12px;
+ }
+
+ .table th {
+     background-color: #f8f9fa;
+     font-weight: bold;
+     text-transform: uppercase;
+     text-align: center;
+     border-bottom: 2px solid #dee2e6;
+ }
+
+ .table tbody tr:hover {
+     background-color: #f1f5f9;
+ }
+
+ .table tbody td {
+     text-align: center;
+ }
+
+ /* Table Header Styling */
+ .table-header {
+     background-color: #169e88;
+     color: white;
+     text-align: center;
+     font-weight: bold;
+ }
+
+ /* Table Row Hover Effect */
+ .table-hover tbody tr:hover {
+     background-color: rgba(22, 158, 136, 0.1);
+ }
+
+ /* Centering Content in Table Cells */
+ .table td,
+ .table th {
+     vertical-align: middle;
+     text-align: center;
+ }
+
+ /* SVG Button Styling */
+ .btn-link {
+     text-decoration: none;
+ }
+
+ .btn-link:hover svg {
+     fill: #0d6e5b;
+     /* Slightly darker color on hover */
+     transform: scale(1.1);
+     /* Subtle zoom effect */
+     transition: 0.3s;
+ }
+ .download{
+    width: 10%;
+ }
+ .delete{
+    width: 8%;
+    
+ }
+ .view{
+    width: 10%;
+    
+ }
+ button.btn.btn-link.p-0{
+    background-color: transparent !important;
+ }
+
+ .fileUploadModal{
+    width: 45% !important;
+ }
+ table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after{
+    bottom: 8px !important;
+}
+
+ 

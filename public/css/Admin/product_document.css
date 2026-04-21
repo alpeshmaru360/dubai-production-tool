@@ -1,0 +1,33 @@
+.custom-add {
+    background-color: #169e88 !important;
+    color: white !important;
+    border: none !important;
+}
+.folder-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.folder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    text-align: center;
+}
+.folder p {
+    margin-top: 8px;
+    font-size: 14px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.folder-icon {
+    width: 65px;
+    height: 65px;
+}

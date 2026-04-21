@@ -1,0 +1,36 @@
+.save_btn {
+    background-color: #169e88 !important;
+}
+.thead {
+    background-color: #169e88 !important;
+    color: #fff;
+}
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    top: 20%;
+    left: 35%;
+    margin: 0;
+}
+.modal-header {
+    background-color: #169e88;
+    color: #fff;
+    border-bottom: none;
+}
+th {
+    background-color: #169d87 !important;
+    color: white !important;
+}
+.modal-header .btn-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    opacity: 0.8;
+    padding: 0px;
+    height: 30px;
+    line-height: 10px;
+}

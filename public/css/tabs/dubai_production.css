@@ -1,0 +1,532 @@
+.paral {
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 350px !important;
+}
+
+.paral p {
+    font-size: 24px;
+    color: #f5f5f5;
+    text-align: center;
+    line-height: 60px;
+}
+
+/* Heading for Parallax Section */
+.paral h1 {
+    color: white;
+    font-size: 50px;
+    padding-top: 60px;
+    line-height: 53px;
+}
+
+/* .paralsec { */
+/* background-image:url("/sales_manager/banner/dubai_production.jfif"); */
+/* } */
+
+.jumbotron {
+    margin-bottom: 0;
+    border-radius: 12px !important;
+}
+
+
+.dubai_production_section {
+    margin: 2rem !important;
+    border-radius: 12px !important;
+}
+
+.img_container img {
+    border-radius: 12px !important;
+}
+
+.paragraph_container {
+    background-color: #0ba87e !important;
+    border-radius: 12px !important;
+}
+
+.production_lable {
+    line-height: 48px !important;
+}
+
+.elementor_section_box {
+    background: #eef6f7 !important;
+}
+
+.elementor-widget-container {
+    /*background: white !important;*/
+    border-radius: 12px !important;
+}
+
+.elementor-image-box-content h6 {
+    font-size: 14px !important;
+    letter-spacing: 1px;
+}
+
+.elementor-image-box-content a {
+    font-weight: 600 !important;
+    color: #808080e0 !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.elementor-image-box-wrapper {
+    min-height: 120px !important;
+}
+
+.main_title {
+    font-weight: 600 !important;
+    color: #808080e0 !important;
+}
+
+.logout_svg {
+    width: 7%;
+}
+
+.logout_svg img:hover {
+    fill: #0ba87e;
+}
+
+.pump_tets_1 {
+    width: 40%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    min-height: 60px;
+    color: #fff;
+}
+
+.box.dupro_box {
+    margin: 0px !important;
+}
+
+
+.box p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    /* line-height: 60px; */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #169e88;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.box a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    /* line-height: 60px; */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #169e88;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.commitment-button {
+    width: 50% !important;
+}
+
+.team_img {
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 100% !important;
+}
+
+.th-bg {
+    background-color: #169e88 !important;
+}
+
+.success_box {
+    width: 30%;
+    background-color: #169e88 !important;
+    color: white !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+}
+
+/* Modal styles */
+.image-modal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    /* Ensure it's on top of everything */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Semi-transparent background */
+}
+
+/* Modal content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 80%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Close button */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10001;
+    /* Higher than the modal content */
+}
+
+
+/* Ensure the modal and backdrop appear above any content */
+.modal-backdrop {
+    z-index: 1050 !important;
+    /* Backdrop should be slightly below the modal */
+}
+
+.modal {
+    z-index: 1055 !important;
+    /* Modal should be higher than the header and backdrop */
+}
+
+/* Vertically center the modal using flexbox */
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* Full height to center it */
+    margin: 0 auto;
+    /* Reset any margin */
+}
+
+.dashboard-tabs .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    min-height: 60px;
+    color: #fff;
+}
+
+.dashboard-tabs .box p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    /* line-height: 60px; */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #ff0022;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.dashboard-tabs .box a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    /* line-height: 60px; */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 12px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+    background-color: #00151800;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.bg-tab-heading {
+    background-color: #059b80;
+    margin-top: 7px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.bg-tab-heading h4 {
+    color: white;
+    text-align: center;
+}
+
+.back-svg {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    fill: white;
+
+}
+
+.back-btn {
+    padding: 7px 12px;
+    background-color: #169e88;
+    color: white !important;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+    border-radius: 4px !important;
+    text-decoration: none;
+
+}
+
+/** start - back button css - 07-01-2025 **/
+.custom-back {
+    background-color: #169e88 !important;
+    color: white !important;
+    border: none !important;
+    font-size: 1rem !important;
+    border-radius: .25rem !important;
+    padding: .375rem .75rem !important;
+}
+
+.custom-back .back-svg {
+    width: 14px;
+    height: 14px;
+    margin-right: 3px;
+}
+
+.bg-white .custom-back {
+    color: white !important;
+}
+
+.bg-white .back-btn {
+    color: white !important;
+    margin-bottom: 50px !important;
+}
+
+.c-back .back-svg {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.btn {
+    font-weight: 600 !important;
+}
+
+.btn.btn-primary.search-btn {
+    border-radius: .25rem !important;
+}
+
+.custom_color {
+    color: #169e88 !important;
+}
+
+.custom_bg_color {
+    background-color: #169e88 !important;
+    color: white !important;
+}
+
+.paginate_button.page-item.active .page-link {
+    background-color: #169e88 !important;
+    color: white !important;
+}
+
+.paginate_button.page-item .page-link {
+    color: #169e88 !important;
+}
+
+.paginate_button.page-item.disabled .page-link {
+    color: #7a7e83 !important;
+}
+
+/** end - back button css - 07-01-2025 **/
+th {
+    border: 1px solid #dee2e6 !important;
+    border-left-width: 0 !important;
+    border-top-width: 0 !important;
+}
+
+th:last-child {
+    border-right-width: 0 !important;
+    border-top-right-radius: 6px !important;
+}
+
+th:first-child {
+    border-top-left-radius: 6px !important;
+}
+
+.trx_addons_scroll_to_top {
+    background-color: #059b80 !important;
+}
+
+.elementor .dashboard_imgs {
+    height: 155px !important;
+    width: 100% !important;
+}
+
+.btn-outline-primary {
+    background-color: #169e88 !important;
+    color: white !important;
+    border: none !important;
+    outline: #169e88 !important;
+    padding: 10px 20px !important;
+    cursor: pointer;
+    transition: background-color 0.3s !important;
+}
+
+.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap {
+    display: inline-block;
+}
+
+.facility_images .img_container img {
+    object-fit: cover;
+    height: 300px;
+}
+
+@media (max-width:696px) {
+    .facility_images .img_container img {
+        height: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    .video_section {
+        width: 100% !important;
+    }
+
+    .jumbotron {
+        min-height: 180px;
+        /* Reduce height for smaller screens */
+        background-size: contain !important;
+        /* Adjust background sizing */
+    }
+
+    .jumbotron h1 {
+        font-size: 25px;
+        /* Reduce text size for better readability */
+        width: 100%;
+        /* Ensure it fits inside */
+    }
+
+    /*  text-align: center; /* Center the text */
+
+    .paral {
+        height: 0px !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /*.elementor-3160 .elementor-element.elementor-element-6175f6b{
+        width: 100% !important;
+    } */
+    .sc_hideonmobile {
+        display: inline-block !important;
+    }
+
+    body.menu_side_present .sc_layouts_row_type_narrow {
+        padding-left: 12px !important;
+    }
+
+    .elementor-3160 .elementor-element.elementor-element-559c822 {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+}
+
+
+@media (max-width:992px) {
+    .pump_test_section_2 {
+        margin-top: 1.5rem !important;
+    }
+
+    .fac_img {
+        width: 100% !important;
+    }
+}
+
+@media (max-width:1250px) {
+    .elementor-3160 .elementor-element.elementor-element-559c822 {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-justify-mobile {
+        text-align: justify !important;
+    }
+}
+
+.coming-soon-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    border-radius: inherit;
+}
+
+.coming-soon-img {
+    width: 70%;
+    height: auto;
+    max-width: 150px;
+    aspect-ratio: auto;
+    object-fit: contain;
+    opacity: 1;
+    transform: rotate(-30deg);
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}

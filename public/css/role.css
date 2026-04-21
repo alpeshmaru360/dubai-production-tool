@@ -1,0 +1,136 @@
+.fs-10{
+    font-size: 10px !important;
+}
+.fs-11{
+    font-size: 11px !important;
+}
+.fs-12{
+    font-size: 12px !important;
+}
+.fs-14{
+    font-size: 14px !important;
+}
+.fs-15{
+    font-size: 15px !important;
+}
+.fs-16{
+    font-size: 16px !important;
+}
+.fs-17{
+    font-size: 17px !important;
+}
+.fs-18{
+    font-size: 18px !important;
+}
+.fs-20{
+    font-size: 20px !important;
+}
+.fs-22{
+    font-size: 22px !important;
+}
+.fs-30{
+    font-size: 30px !important;
+}
+.fs-35{
+    font-size: 35px !important;
+}
+
+.f-50{
+    font-size: 50px !important;
+}
+
+
+.w-13{
+    width: 13%;
+}
+.w-14{
+    width: 14%;
+}
+.w-70{
+    width: 70%;
+}
+
+.w-85{
+    width: 85%;
+}
+
+.fw-600{
+    font-weight: 600 !important;
+}
+
+.text-gray{
+    color : #0000007a !important;
+}
+
+.main_section{
+    border-radius: 15px;
+}
+
+/* Ensure the HTML and body take full height */
+/*html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}*/
+
+/* Main content container to take up available space */
+/*.body_wrap {
+    flex: 1;
+}*/
+
+/* Footer styles */
+.footer_wrap {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.footer_wrap a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer_wrap a:hover {
+    color: black;
+}
+
+.main_section .project_status_table_div_section{
+    overflow-x: auto;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.main_section table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.main_section table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.video_rounded{
+    border-radius: 15px !important;
+}
+
+.br_8{
+    border-radius: 8px !important;
+}
+
+.bg_black{
+    background-color: black !important;
+}
+
+.bg_theme{
+    background: #169e88 !important;
+}
+.text_decoration_none{
+    text-decoration: none !important;
+}
+.text_transform_none{
+    text-transform: none !important;
+}

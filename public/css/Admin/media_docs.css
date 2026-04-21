@@ -1,0 +1,80 @@
+.table-custom {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+button.action-button {
+    background-color: transparent !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: transform 0.2s ease !important;
+    padding: 0 !important;
+}
+.table-custom th {
+    background-color: #169e88;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border: 1px solid #dee2e6 !important;
+    border-left-width: 0 !important;
+    border-top-width: 0 !important;
+}
+.table-custom th:last-child {
+    border-right-width: 0 !important;
+}
+.table-custom td {
+    vertical-align: middle;
+}
+.img-preview {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+.img-preview:hover {
+    transform: scale(1.1);
+}
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.action-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.action-button:hover {
+    transform: scale(1.2);
+}
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: #169e88;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+.back-btn:hover {
+    background-color: #169e88;
+}
+.back-svg {
+    width: 14px;
+    height: 14px;
+    margin-right: 3px;
+}
+.bg-white .back-btn {
+    margin-bottom: 0px !important;
+}
+.cancel_button {
+    padding: 9px 25px;
+}
+table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after{
+    bottom: 8px !important;
+}

@@ -1,0 +1,147 @@
+.heading{
+    font-size: 28px !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #333;
+    position: relative;
+}
+
+/* Container for the stats boxes */
+.stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Style for individual stat boxes */
+.stat-box {
+    flex: 1 1 30%; /* Adjust this percentage to control box width on larger screens */
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.stat-box:hover {
+    transform: scale(1.05); /* Simple hover effect */
+}
+
+/* Titles and values within the boxes */
+.stat-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #169e88;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .stat-box {
+        flex: 1 1 45%; /* Wider boxes on medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .stat-box {
+        flex: 1 1 100%; /* Full-width boxes on small screens */
+    }
+}
+
+.stat-box {
+    display: block; /* Makes the anchor tag behave like a block element */
+    text-decoration: none; /* Removes underline from link */
+    color: inherit; /* Inherits color styling */
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #169e88 !important;
+    border-color: #169e88 !important;
+}
+.read-more{
+    color: #169e88;
+}
+.bg-custom{
+    background-color: #169e88 !important;
+}
+.menu_mobile_nav_area>ul{
+    font-size: 12px !important;
+}
+
+.dashboard-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .stats-boxes {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        /* flex: 1; */
+        min-width: 100px;
+    }
+
+    .stat-box {
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        width: 220px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .stat-box h3 {
+        margin: 0 0 10px;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .stat-box p {
+        margin: 0;
+        font-size: 24px;
+        font-weight: bold;
+        color: #007bff;
+    }
+
+    .chart-container {
+        flex: 2;
+        min-width: 300px;
+        height: 400px;
+    }
+
+    @media (max-width: 768px) {
+        .dashboard-container {
+            flex-direction: column;
+        }
+
+        .stats-boxes {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .stat-box {
+            flex: 1;
+            min-width: 150px;
+        }
+    }
+    .count{
+        font-size: 24px;
+        font-weight: bold;
+        color: #169e88 !important;
+        margin-top: 10px;
+    }

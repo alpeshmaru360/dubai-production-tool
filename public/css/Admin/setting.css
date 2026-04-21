@@ -1,0 +1,221 @@
+/* Full-screen calendar styling */
+.calendar-container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.month-year-display {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #169e88;
+}
+
+.nav-button {
+    font-size: 1.2em;
+    padding: 5px 10px;
+    color: #169e88;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    color: #0f7d68;
+}
+
+.calendar-days,
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.calendar-day-name,
+.calendar-day {
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 4px;
+    color: #333;
+}
+
+.calendar-day-name {
+    font-weight: bold;
+    color: #169e88;
+}
+
+.calendar-day {
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.calendar-day:hover {
+    background-color: #d8f3eb;
+}
+
+.calendar-day.selected {
+    background-color: #169e88;
+    color: white;
+}
+
+/* Calendar container */
+#calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Month and year display */
+#current-month-year {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Navigation buttons */
+#calendar-navigation {
+    display: flex;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}
+
+.calendar-button {
+    padding: 0.3em 0.8em;
+    border: none;
+    background-color: #169e88;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.2s;
+}
+
+.calendar-button:hover {
+    background-color: #137a6d;
+}
+
+/* Calendar grid */
+#calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Days of the week header */
+.calendar-day-header {
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 0;
+    color: #666;
+}
+
+/* Individual day styling */
+.calendar-day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.calendar-day:hover {
+    background-color: #d8f3eb;
+}
+
+/* Selected day styling */
+.calendar-day.selected {
+    background-color: #169e88;
+    color: white;
+}
+
+/* Today’s date styling */
+.calendar-day.today {
+    border: 2px solid #169e88;
+    font-weight: bold;
+    background-color: #e0f7f3;
+    color: #000;
+}
+
+/* Disabled past dates */
+.calendar-day.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+    background-color: #f7f7f7;
+}
+
+/* Styling for save button */
+.save-button {
+    margin-top: 15px !important;
+    padding: 10px 20px !important;
+    font-size: 1em !important;
+    color: #fff !important;
+    background-color: #169e88 !important;
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+}
+
+.save-button:hover {
+    background-color: #0f7d68 !important;
+}
+
+.email {
+    gap: 100px;
+}
+
+.border-info {
+    border-radius: 10px;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+.calendar-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar-section, .details-section {
+    flex: 1;
+    min-width: 300px; /* Adjust as needed */
+}
+
+@media (max-width: 768px) {
+    .calendar-container {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,72 @@
+ /* Box Styling */
+ .video-upload-box {
+     width: 50% !important;
+     padding: 20px;
+ }
+
+ /* Drag-and-Drop Area */
+ .drop-area {
+     border: 2px dashed #ccc;
+     border-radius: 8px;
+     padding: 40px;
+     text-align: center;
+     cursor: pointer;
+     background-color: #f9f9f9;
+     transition: border-color 0.3s;
+ }
+
+ .drop-area:hover {
+     border-color: #007bff;
+ }
+
+ .drop-text {
+     font-size: 1.2rem;
+     color: #666;
+ }
+
+ /* Upload Button Styling */
+ .upload-button {
+     width: 100%;
+     font-size: 1rem;
+     padding: 10px;
+     border-radius: 4px;
+     background-color: #169e88 !important;
+     color: #fff;
+     border: none;
+ }
+
+ .drop-area:hover {
+     border-color: #169e88;
+ }
+
+ /* Video preview styling */
+ .preview-heading {
+     font-size: 1.2rem;
+     margin-top: 1rem;
+     color: #333;
+ }
+
+ .video-preview-element {
+     border-radius: 8px;
+     max-height: 300px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ button.btn.btn-primary {
+     background-color: #169e88 !important;
+     border: none;
+ }
+
+ img.dashboard_imgs {
+     height: 200px;
+     object-fit: cover;
+ }
+
+ /* Error message styling */
+ .text-danger {
+     background-color: #f8d7da;
+     border: 1px solid #f5c6cb;
+     border-radius: 4px;
+     padding: 8px;
+     font-weight: 500;
+ }
